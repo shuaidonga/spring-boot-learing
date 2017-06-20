@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<form action="/changeLanauage" method="post">
+		<input name="lang" type="hidden" value="zh" />
+		<button>
+			<p th:text="#{lang_zh}"></p>
+		</button>
+	</form>
+
+	<form action="/changeLanauage" method="post">
+		<input name="lang" type="hidden" value="en" />
+		<button>
+			<p th:text="#{lang_en}"></p>
+		</button>
+	</form>
+	<div class="col-8 col-offset-2">
+		<img class="mt5 bd1" id="yzm" style="cursor: pointer;"
+			src="/getCaptcha" title="点击刷新图片"></img>
+	</div>
+</body>
+</html>
