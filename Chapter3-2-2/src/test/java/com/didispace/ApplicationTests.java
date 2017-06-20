@@ -2,7 +2,6 @@ package com.didispace;
 
 import com.didispace.domain.UserRepository;
 import com.didispace.domain.entity.User;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

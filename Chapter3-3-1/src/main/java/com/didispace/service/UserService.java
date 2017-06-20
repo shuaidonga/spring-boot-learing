@@ -1,8 +1,8 @@
 package com.didispace.service;
 
 import com.didispace.domain.User;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 

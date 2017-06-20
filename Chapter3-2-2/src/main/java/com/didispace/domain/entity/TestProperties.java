@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
-import org.springframework.test.context.ActiveProfiles;
 
 @Component
 @ConfigurationProperties(prefix="com.didispace.blog",locations={"classpath:application-dev.properties","classpath:application-prod.properties"})

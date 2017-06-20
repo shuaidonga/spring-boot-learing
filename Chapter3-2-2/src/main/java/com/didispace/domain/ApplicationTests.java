@@ -1,11 +1,8 @@
 package com.didispace.domain;
 
-import java.io.File;
-import java.util.Iterator;
-
-import javax.mail.MessagingException;
-import javax.mail.internet.MimeMessage;
-
+import com.didispace.Application;
+import com.didispace.domain.entity.TestProperties;
+import com.didispace.domain.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,9 +18,10 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.didispace.Application;
-import com.didispace.domain.entity.TestProperties;
-import com.didispace.domain.entity.User;
+import javax.mail.MessagingException;
+import javax.mail.internet.MimeMessage;
+import java.io.File;
+import java.util.Iterator;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(Application.class)

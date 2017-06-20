@@ -1,10 +1,9 @@
 package com.didispace.web;
 
 import com.didispace.domain.User;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
-
-import org.springframework.web.bind.annotation.*;
 
 /**
  *

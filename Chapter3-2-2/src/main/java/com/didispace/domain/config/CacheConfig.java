@@ -1,16 +1,15 @@
 package com.didispace.domain.config;
 
-import java.util.Locale;
-
-import javax.servlet.MultipartConfigElement;
-import javax.servlet.annotation.MultipartConfig;
-
 import org.springframework.boot.context.embedded.MultipartConfigFactory;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
+
+import javax.servlet.MultipartConfigElement;
+import javax.servlet.annotation.MultipartConfig;
+import java.util.Locale;
 
 @Configuration
 @EnableCaching

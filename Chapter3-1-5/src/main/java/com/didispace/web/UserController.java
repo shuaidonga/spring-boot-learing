@@ -1,11 +1,10 @@
 package com.didispace.web;
 
 import com.didispace.domain.User;
-
-import java.util.*;
-
 import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.*;
 
 /**
  *
